@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="logo-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-speaker"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><circle cx="12" cy="14" r="4"></circle><line x1="12" y1="6" x2="12.01" y2="6"></line></svg>
+             Speakers
+        </div>   
+    </div>
+    <div id="main-form">
+        <section id="detail">
+            <p><h2>Buy some speakers. Fill in the form to get some.</h2></p>
+        </section>
+        <section id="form">
+            <h2>Let's do this!</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first-name" required pattern="[A-Za-z]+">
+                    </li>
+                    <li>
+                        <label for="last-name">last name</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </li>
+                    <li>
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">phone number</label>
+                        <input type="number" id="phone" name="phone" required>
+                    </li>
+                    <li>
+                        <label for="password">password</label>
+                        <input type="password" id="password" name="password" required>
+                    </li>
+                    <li>
+                        <label for="confirm-password">confirm password</label>
+                        <input type="password" id="password"required>
+                    </li>
+                    
+                </ul>
+                <button type="submit">Submit!</button>
+            </form>
+        </section>
+        <section id="bottom">
+            Copyright @ Speakers 2024
+            
+        </section>
+    </div>
+</body>
+</html>
